@@ -1,0 +1,16 @@
+ <html>
+     <head><title>family book</title></head>
+     <body>
+         <h1>family book</h1>
+         <img id="photo" src="familyphotosfeat.jpg">
+         <button onclick="next();">next</button>         </body>
+         <script>
+             var img=["dad-clipart-transparent","mom-standing-clipart-3"];
+             function next(){
+                 for (i=0;i<img.length;i++){
+                     document.getElementById("photo").src=img[i];
+                 }
+                 
+             }
+         </script>
+ </html>
